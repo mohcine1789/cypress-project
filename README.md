@@ -34,6 +34,10 @@ Pre-conditions:
 
 ## How to run tests
 
+### Using docker image
+
+To run tests in docker container, run the `cy-run.sh` script. The tests are run headless.
+
 ### Locally 
 
 #### Set up
@@ -56,8 +60,3 @@ npm run cy:open
 ```bash
 npm run cy:run
 ```
-   
-
-### Using docker image
-
-To run tests in docker container, run the `cy-run.sh` script. The tests are run headless.
